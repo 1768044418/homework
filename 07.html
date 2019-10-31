@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--表单-->
+		<form action="process.aspx">
+			账号：<input type="text" placeholder="请输入" /><!--value="张三"-->
+			<p>
+			密码：<input type="password" placeholder="输入密码" />	
+			</p>
+			<p>
+				性别：<input type="radio" name="sex" checked="checked"/>男   
+				<input type="radio" name="sex"/>女
+			</p>
+			<p>
+				选课：<br />
+				<input type="checkbox" />数学 <br />
+				<input type="checkbox" />英语<br />
+				<input type="checkbox" /> 语文 <br />
+				<input type="checkbox" />体育  <br />
+				<input type="checkbox" />生物 <br />
+				<input type="checkbox" /> 物理<br />
+			</p>
+		
+			<!--下拉菜单-->
+			<p>
+				你喜欢的城市：
+				<select>
+					<option>海南</option>
+					<option>南京</option>
+					<option>如皋</option>
+					<option>深圳</option>
+				</select>
+			</p>
+			<!--按钮-->
+			<p>
+				<input type="button" value="按钮1" />
+				<input type="button" value="按钮2" />
+			</p>
+			<!--留言   rows行  cols列-->
+			<p>
+				留言<br />
+				<textarea rows="8" cols="20"></textarea>
+			</p>
+			<!--特殊按钮 action-->
+			<p>
+			<input type="submit" value="确认"  />	
+			<input type="reset" value="重置" />
+			</p>
+			</form>
+	</body>
+</html>
